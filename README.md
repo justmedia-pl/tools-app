@@ -2,6 +2,9 @@
 SpringBoot REST API CRUD &amp; H2 SimpleApp
 You can test it on [Heroku]: https://tool2-app.herokuapp.com/
 
+App on start creates two instances of TOOL's and add it to H2 Database
+You can list them with https://tool2-app.herokuapp.com/api/tools/all or on your localhost/api/tools/all
+
 ## How to use the CURD API
 Api is availabe at [api/tools]: https://tool2-app.herokuapp.com/api/tools
 
