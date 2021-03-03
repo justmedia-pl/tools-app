@@ -1,6 +1,7 @@
 # tools-app
 SpringBoot REST API CRUD &amp; H2 SimpleApp
-You can test it on [Heroku]: https://tool2-app.herokuapp.com/
+You can Create,Read,Update,Delete "tool" object with id, name, and validate_date and store them in H2 database (or edit application.properties and use mysql db engine (spring libraries for MySQL are included)
+Test it on [Heroku]: https://tool2-app.herokuapp.com/
 
 App on start creates two instances of TOOL's and add it to H2 Database
 You can list them with https://tool2-app.herokuapp.com/api/tools/all or on your localhost/api/tools/all
