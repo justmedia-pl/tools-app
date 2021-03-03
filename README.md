@@ -18,21 +18,22 @@ https://tool2-app.herokuapp.com/api/tools/?index=[tool_index]
 
 #### Add new with POST
 on https://tool2-app.herokuapp.com/api/tools with JSON
-
+```
 Example JSON body:
 {
     "name": "New Tool",
     "validateTo": "2021-06-11"
 }
-
+```
 #### Modify with PUT
 on https://tool2-app.herokuapp.com/api/tools
 Example JSON body:
+```
 {
     "id": 1,
     "name": "Tool_new_name_1",
     "validateTo": "2021-06-11"
 }
-
+```
 #### Delete with DELETE
 https://tool2-app.herokuapp.com/api/tools/?index=[tool_index]
